@@ -6,7 +6,7 @@ basic.showLeds(`
     # . # . #
     `)
 let strip = neopixel.create(DigitalPin.P1, 9, NeoPixelMode.RGB)
-strip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
+strip.setPixelColor(1, neopixel.colors(NeoPixelColors.Orange))
 strip.setPixelColor(2, neopixel.colors(NeoPixelColors.Blue))
 strip.setPixelColor(3, neopixel.colors(NeoPixelColors.Green))
 basic.pause(1000)
